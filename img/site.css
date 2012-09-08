@@ -1,0 +1,2873 @@
+/*
+Theme Name: Carsonified
+Theme URI: http://carsonified.com/
+Description: 2009 redesign of the Carsonified site
+Version: 1
+Author: Mike Kus (mike@carsonified.com)*/
+
+
+
+
+
+
+
+
+
+
+
+/********** General **********/
+
+body {
+	font-family: Georgia, "Times New Roman", serif;
+    font-size: 100%;
+    line-height: 1.125em; /* 16×1.125=18px */
+	color:#fffdd8;
+	padding-bottom:50px;
+}
+
+
+
+
+
+
+
+
+
+/********** Main Nav **********/
+
+.main-nav ul li a {
+	color: #fffdd8;
+}
+
+.main-nav ul li a:hover span {
+	background-color:#fffdd8;
+	}
+	
+#home .main-nav ul li a:hover span {
+	color:#000;
+	}
+	
+#toolKit .main-nav ul li a:hover span {
+	color:#4b3f35;
+	}		
+	
+#values .main-nav ul li a:hover span {
+	color:#c02020;
+	}		
+	
+#events .main-nav ul li a:hover span {
+	color:#1f78a6;
+	}
+	
+.guy .main-nav ul li a:hover span {
+	color:#25481f;
+	}
+	
+.jon .main-nav ul li a:hover span {
+	color:#4c405c;
+	}			
+	
+.ryan .main-nav ul li a:hover span {
+	color:#61466e;
+	}	
+
+.gill .main-nav ul li a:hover span {
+	color:#5d3747;
+	}
+	
+.greg .main-nav ul li a:hover span {
+	color:#4c615f;
+	}	
+	
+.jo .main-nav ul li a:hover span {
+	color:#00837f;
+	}	
+	
+.keir .main-nav ul li a:hover span {
+	color:#76a201;
+	}	
+	
+.lou .main-nav ul li a:hover span {
+	color:#a7234e;
+	}	
+	
+.mike .main-nav ul li a:hover span {
+	color:#000;
+	}
+	
+.tash .main-nav ul li a:hover span {
+	color:#209c81;
+	}	
+	
+.trista .main-nav ul li a:hover span {
+	color:#e45600;
+	}												
+	
+.will .main-nav ul li a:hover span {
+	color:#447c23;
+	}	
+
+.cat .main-nav ul li a:hover span {
+	color:#c52c2c;
+	}	
+	
+.allison .main-nav ul li a:hover span {
+	color:#c52c2c;
+	}	
+
+.alan .main-nav ul li a:hover span {
+	color:#2e84a0;
+	}
+
+.pete .main-nav ul li a:hover span {
+	color:#2d8ebe;
+	}
+
+.nick .main-nav ul li a:hover span {
+	color:#176e31;
+	}	
+
+.jim .main-nav ul li a:hover span {
+	color:#044966;
+	}
+	
+.michael .main-nav ul li a:hover span {
+	color:#db5e1a;
+	}	
+	
+#jobs .main-nav ul li a:hover span {
+	color:#468805;
+	}
+	
+#contact .main-nav ul li a:hover span {
+	color:#e46508;
+	}
+
+#four04 .main-nav ul li a:hover span {
+	color:#ba1d1d;
+	}
+	
+#projects .main-nav ul li a:hover span {
+	color:#243e4c;
+	}
+#affiliates .main-nav ul li a:hover span {
+	color:#004f3b;
+	}
+
+	
+/********** Backgrounds Colors **********/
+
+body#home {
+	background:#141300;
+}	
+
+body#events {
+	background-color: #034F28;
+}
+
+body#toolKit {
+	background:#5c4e42;
+}
+
+body#values {
+	background:#cf2b2b;
+}				
+	
+body#jobs {
+	background:#4f9906;
+}
+
+body#affiliates {
+	background:#005f47;
+}
+
+body.guy {
+	background:#305f28;
+}
+
+body.jon {
+	background:#605174;
+}
+
+body.ryan {
+	background:#6f507e;
+}
+
+body.gill {
+	background:#79485c;
+}
+
+body.greg {
+	background:#617a77;
+}
+
+body.jo {
+	background:#1f9781;
+}
+
+body.keir {
+	background:#87b900;
+}
+
+body.lou {
+	background:#bd2b5b;
+}
+
+body.cat {
+	background:#d33737;
+}
+
+body.allison {
+	background:#d33737;
+}
+
+body.alan {
+	background:#3f94b0;
+}
+
+body.pete {
+	background:#379fd3;
+}
+
+body.michael {
+	background:#e96c27;
+}
+
+body.nick {
+	background:#1c803a;
+}
+
+body.jim {
+	background:#055374;
+}
+
+body.mike {
+	background-image:url(img/presentation/tv_fuzz_dark.gif);
+	background-position:top left;
+	background-repeat:repeat;
+	background-attachment:fixed;
+}
+
+body.tash {
+	background:#27b797;
+}
+
+body.trista {
+	background:#ff6000;
+}
+
+body.will {
+	background:#519429;
+}	
+
+body#projects {
+	background:#294757;
+}
+
+body#contact {
+	background:#fc7009;
+}
+
+body#four04 {
+	background:#cd2020;
+}
+	
+
+
+
+
+
+
+
+/********** Text **********/
+
+h2 {
+	font-size:200%;
+	line-height: 1.1em;
+	letter-spacing:-0.02em;
+	margin:0px 0px 20px 0px;
+}
+
+
+h3 {
+	font-size:140%;
+	font-family:Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	line-height:1.1em;
+	letter-spacing:-0.04em;
+	margin:0px 0px 4px 0px;
+}
+
+h4 {
+	font-size:200%;
+	line-height: 1.1em;
+	letter-spacing:-0.02em;
+	margin:0px 0px 10px 0px;
+}
+
+p.small {
+	float:left;
+	font-size:80%;
+	line-height:1.05em;
+	margin:15px 0px 0px 0px;
+}
+
+p {
+	padding:0px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********** Links **********/
+
+a, a:link, a:visited {
+	color:#fffdd8;
+}
+
+a.special {
+	border:1px dashed #fffdd8;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:5px;
+	text-decoration:none;
+	margin:0px 0px 20px 0px;
+}
+
+a.special:hover {
+	border:1px solid #fffdd8;
+}
+
+
+
+
+
+
+
+
+
+/********** Images **********/
+
+.ukMap {
+	padding:20px 0px 0px 0;
+}
+
+.lungs {
+	padding:8px 0px 0px 39px;
+	float:left;
+}
+
+.brain {
+	padding:0px 0px 10px 0px;
+	float:right;
+}
+
+
+
+
+
+
+
+/********** New homepage design styles **********/
+
+.contentLeft {
+	width:400px;
+	float:left;
+}
+
+.contentLeft p {
+	text-align:center;
+	margin-bottom:0px;
+	padding-bottom:0px;
+	line-height:1.3em;
+}
+
+
+h1.weLoveTheWeb {
+	float:left;
+	background:url(img/presentation/we_love_the_web.png) top left no-repeat;
+	display: block;
+	width:400px;
+	height:455px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 25px 0px;
+	}
+	
+h1.weLoveTheWeb img {
+	height:0;
+	}
+	
+ul#products {
+	width:532px;
+	float:right;
+}
+
+ul#products li {
+	float:left;
+}
+
+ul#products li.onlineConferences,
+ul#products li.fowdBubble,
+ul#products li.fowaBubble {
+	float:right;
+}
+
+ul#products li a img {
+	height:0;
+}
+
+ul#products li.membership a {
+	background:url(img/presentation/tvm.png) top left no-repeat;
+	display: block;
+	width: 247px;
+	height: 263px;
+	border: none;
+	margin-bottom:20px;
+}
+
+ul#products li.membership a:hover {
+	background:url(img/presentation/tvm.png) 0px -270px no-repeat;
+	}	
+	
+ul#products li.onlineConferences a {
+	background:url(img/presentation/online_conf.png) top left no-repeat;
+	display: block;
+	width: 244px;
+	height: 267px;
+	border: none;
+	margin-bottom:20px;
+}
+
+ul#products li.onlineConferences a:hover {
+	background:url(img/presentation/online_conf.png) 0px -280px no-repeat;
+	}	
+	
+ul#products li.fowaBubble a {
+	background:url(img/presentation/fowa.png) top left no-repeat;
+	display: block;
+	width: 249px;
+	height: 246px;
+	border: none;
+}
+
+ul#products li.fowaBubble a:hover {
+	background:url(img/presentation/fowa.png) 0px -260px no-repeat;
+	}	
+	
+ul#products li.fowdBubble a {
+	background:url(img/presentation/fowd.png) top left no-repeat;
+	display: block;
+	width: 252px;
+	height: 246px;
+	border: none;
+}
+
+ul#products li.fowdBubble a:hover {
+	background:url(img/presentation/fowd.png) 0px -260px no-repeat;
+	}
+
+
+
+
+
+
+
+/********** Home Page **********/
+
+h1.ourHearts {
+	float:left;
+	background:url(img/presentation/our_hearts_beat_louder.png) top left no-repeat;
+	display: block;
+	width:694px;
+	height:377px;
+	border:none;
+	padding:0px;
+	margin:10px 30px 0px 0px;
+	}
+	
+h1.ourHearts span {
+	display:none;
+	}	
+	
+.intro {
+	background:url(img/presentation/arrow.png) no-repeat;
+	background-position:90px 250px;
+	margin:40px 0px 0px 0px;
+	padding:0px 0px 130px 0px;
+	float:left;
+	width:250px;
+}
+
+ul#eventsHome {
+	float:left;
+	clear:both;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 10px 0px;
+}	
+
+ul#eventsHome li {
+	float:left;
+}
+
+ul#eventsHome li a img {
+	height:0;
+}
+
+ul#eventsHome li a.fowaEvents {
+	background:url(img/presentation/home_badge_fowa.png) top left no-repeat;
+	display: block;
+	width:243px;
+	height:175px;
+	border:none;
+	margin:4px 9px 0px -20px;
+}
+
+ul#eventsHome li a.fowaEvents:hover {
+	background:url(img/presentation/home_badge_fowa.png) 0px -200px no-repeat;
+}
+
+ul#eventsHome li a.fowdEvents {
+	background:url(img/presentation/home_badge_fowd.png) top left no-repeat;
+	display: block;
+	width:243px;
+	height:175px;
+	border:none;
+	margin:0px 9px 0px 0px;
+}
+
+ul#eventsHome li a.fowdEvents:hover {
+	background:url(img/presentation/home_badge_fowd.png) 0px -200px no-repeat;
+}
+
+ul#eventsHome li a.devdaysEvents {
+	background:url(img/presentation/home_badge_devdays.png) top left no-repeat;
+	display: block;
+	width:243px;
+	height:175px;
+	border:none;
+	margin:4px 10px 0px 0px;
+}
+
+ul#eventsHome li a.devdaysEvents:hover {
+	background:url(img/presentation/home_badge_devdays.png) 0px -200px no-repeat;
+}
+
+ul#eventsHome li a.chirpEvents {
+	background:url(img/presentation/home_badge_chirp.png) top left no-repeat;
+	display: block;
+	width:243px;
+	height:175px;
+	border:none;
+	margin:4px 10px 0px 0px;
+}
+
+ul#eventsHome li a.chirpEvents:hover {
+	background:url(img/presentation/home_badge_chirp.png) 0px -200px no-repeat;
+}
+
+ul#eventsHome li a.onlineEvents {
+	background:url(img/presentation/home_badge_online.png) top left no-repeat;
+	display: block;
+	width:243px;
+	height:175px;
+	border:none;
+	margin:0px 0px 0px 0px;
+}
+
+ul#eventsHome li a.onlineEvents:hover {
+	background:url(img/presentation/home_badge_online.png) 0px -200px no-repeat;
+}
+
+
+/*ul#whatWeDo {
+	clear:both;
+	padding:0px 0px 0px 0px;
+}	
+
+ul#whatWeDo li {
+	float:left;
+}
+
+ul#whatWeDo li a.blogging {
+	background:url(img/presentation/blogging.png) top left no-repeat;
+	display: block;
+	width:216px;
+	height:118px;
+	border:none;
+	margin:28px 41px 0px 0px;
+}
+
+ul#whatWeDo li a.blogging:hover {
+	background:url(img/presentation/blogging.png) top left no-repeat;
+	background-position:0px -150px;
+}
+
+ul#whatWeDo li a.workshops {
+	background:url(img/presentation/workshops.png) top left no-repeat;
+	display: block;
+	width:216px;
+	height:118px;
+	border:none;
+	margin:28px 36px 0px 0px;
+}
+
+ul#whatWeDo li a.workshops:hover {
+	background:url(img/presentation/workshops.png) top left no-repeat;
+	background-position:0px -150px;
+}
+
+ul#whatWeDo li a.events {
+	background:url(img/presentation/events.png) top left no-repeat;
+	display: block;
+	width:471px;
+	height:168px;
+	border:none;
+}
+
+ul#whatWeDo li a.events:hover {
+	background:url(img/presentation/events.png) top left no-repeat;
+	background-position:0px -200px;
+}
+
+ul#whatWeDo li a.blogging span,
+ul#whatWeDo li a.workshops span,
+ul#whatWeDo li a.events span {
+	display:none;
+}*/
+
+
+
+
+
+
+
+
+
+/********** Mission old **********/
+
+/*#values .column1 {
+	float:left;
+	width:290px;
+	padding:130px 0px 0px 22px;
+	margin:0px 0px 0px 0px;
+}
+
+#values .column1 p{
+	clear:both;
+}
+
+h1.weBelieve {
+	float:left;
+	background:url(img/presentation/we_believe.png) top left no-repeat;
+	display: block;
+	width:253px;
+	height:80px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 20px 0px;
+	}
+	
+h1.weBelieve span {
+	display:none;
+	}*/
+	
+
+
+
+
+
+
+/********** Our Core Values **********/
+
+#values .column1 {
+	float:left;
+	width:290px;
+	padding:150px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#values .column1 p {
+	clear:both;
+	background: url(img/presentation/arrow_right.png) 182px 90px no-repeat;
+	height:240px;
+}
+
+#values h2 {
+	font-size:150%;
+	margin-bottom:10px;
+}
+
+h1.ourCoreValues {
+	float:left;
+	background:url(img/presentation/our_core_values.png) top left no-repeat;
+	display: block;
+	width:309px;
+	height:189px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 20px 0px;
+	}
+	
+h1.ourCoreValues span {
+	display:none;
+	}
+	
+.heart {
+	margin:0px 0px 0px -30px;
+	float:left;
+}
+
+.tools {
+	margin:0px 50px 0px 0px;
+	float:right;
+}
+
+.valuesFourDayWeek {
+	margin:55px 0px 0px -90px;
+	float:left;
+}
+
+.change {
+	margin:50px 90px 0px 0px;
+	float:right;
+}		
+
+.valuesSection ul {
+	width:490px;
+}
+
+.valuesSection ul li {
+	margin-bottom:25px;
+}
+
+.valuesSection ul li h2,
+.valuesSection ul li p {
+	margin:0px 0px 0px 70px;
+}
+
+.partOne ul li.itemOne {
+	background:url(img/presentation/number_01.png) 0px 0px no-repeat;
+}
+
+.partOne ul li.itemTwo {
+	background:url(img/presentation/number_02.png) 0px 0px no-repeat;
+}
+
+.partOne ul li.itemThree {
+	background:url(img/presentation/number_03.png) 0px 0px no-repeat;
+}
+
+.partTwo ul li.itemOne {
+	background:url(img/presentation/number_04.png) 0px 0px no-repeat;
+}
+
+.partTwo ul li.itemTwo {
+	background:url(img/presentation/number_05.png) 0px 0px no-repeat;
+}
+
+.partTwo ul li.itemThree {
+	background:url(img/presentation/number_06.png) 0px 0px no-repeat;
+}
+
+.partThree ul li.itemOne {
+	background:url(img/presentation/number_07.png) 0px 0px no-repeat;
+}
+
+.partThree ul li.itemTwo {
+	background:url(img/presentation/number_08.png) 0px 0px no-repeat;
+}
+
+.partThree ul li.itemThree {
+	background:url(img/presentation/number_09.png) 0px 0px no-repeat;
+}
+
+.partFour ul li.itemOne {
+	background:url(img/presentation/number_10.png) 0px 0px no-repeat;
+}
+
+.partFour ul li.itemTwo {
+	background:url(img/presentation/number_11.png) 0px 0px no-repeat;
+}
+
+.partFour ul li.itemThree {
+	background:url(img/presentation/number_12.png) 0px 0px no-repeat;
+}
+
+.partOne {
+	margin:50px 0px 0px 0px;
+	background: url(img/presentation/arrow_left.png) 380px 535px no-repeat;
+	height:700px;
+}
+
+.partOne ul {
+	float:right;
+	margin:0px 115px 0px 0px;
+}	
+
+.partTwo {
+	margin:20px 0px 0px 0px;
+	background: url(img/presentation/arrow_right.png) 280px 435px no-repeat;
+	height:600px;
+}
+
+.partTwo ul {
+	margin:30px 0px 0px 0px;
+	float:left;
+}
+
+.partThree {
+	margin:50px 0px 0px 0px;
+	background: url(img/presentation/arrow_left.png) 380px 615px no-repeat;
+	height:785px;
+}
+
+.partThree ul {
+	float:right;
+	margin:0px 115px 0px 0px;
+}
+
+.partFour {
+	margin:20px 0px 0px 0px;
+}
+
+.partFour ul {
+	margin:30px 0px 0px 0px;
+	float:left;
+}
+
+
+/********** Tool Kit **********/
+
+#toolKit .column1 {
+	float:right;
+	width:290px;
+	padding:80px 0px 0px 0px;
+	margin:0px 30px 0px 0px;
+}
+
+#toolKit .column1 p {
+	clear:both;
+	background: url(img/presentation/arrow_left.png) 60px 110px no-repeat;
+	height:260px;
+}
+
+#toolKit h2 {
+	font-size:150%;
+	margin-bottom:10px;
+}
+
+h1.toolKitTitle {
+	float:left;
+	background:url(img/presentation/tool_kit_title.png) top left no-repeat;
+	display: block;
+	width:308px;
+	height:271px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 20px 0px;
+	}
+	
+h1.toolKitTitle img {
+	height:0;
+	}
+	
+.toolKitPic {
+	margin:10px 0px 0px -10px;
+	float:left;
+}
+
+.kitDownloads {
+	margin:-30px 0px 0px 130px;
+}
+
+.kitDownloads ul {
+	width:490px;
+}
+
+.kitDownloads ul li {
+	margin-bottom:15px;
+	padding:30px 0px 20px 0px;
+}
+
+.kitDownloads ul li h2,
+.kitDownloads ul li p {
+	margin:0px 0px 0px 170px;
+}
+
+.kitDownloads ul li.photoPack {
+	background:url(img/presentation/tool_kit_photos.png) 0px 5px no-repeat;
+}
+
+.kitDownloads ul li.texturePack {
+	background:url(img/presentation/tool_kit_textures.png) 2px 10px no-repeat;
+}
+
+.kitDownloads ul li.iconPack {
+	background:url(img/presentation/tool_kit_icons.png) 27px 20px no-repeat;
+}
+
+.kitDownloads ul li.posterPack {
+	background:url(img/presentation/tool_kit_poster.png) 20px 0px no-repeat;
+}
+
+.kitDownloads ul li.audioBook {
+	background:url(img/presentation/audio_book.png) 20px 0px no-repeat;
+}
+
+		
+	
+
+
+
+
+
+
+
+
+/********** Events **********/
+
+#events .column1 {
+	float:left;
+	width:426px;
+	padding:15px 0px 0px 0px;
+	margin:0px 0px 0px 40px;
+}
+
+#events .column1 p {
+	padding:0px 0px 0px 50px;
+}
+
+h1.liveBreath {
+	float:left;
+	background:url(img/presentation/live_breathe.png) top left no-repeat;
+	display: block;
+	width:400px;
+	height:260px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 20px 20px;
+	}
+	
+h1.liveBreath span {
+	display:none;
+	}
+	
+ul#ourEvents li {
+	float:left;
+	width:208px;
+	margin:0px 45px 0px 0px;
+}
+
+ul#ourEvents li p {
+	padding:20px 0px 0px 0px;
+}
+
+ul#ourEvents li.last {
+	margin:0px 0px 0px 0px;
+}
+	
+ul#ourEvents {
+	clear:both;
+	margin:0px 0px 30px 0px;
+	padding:60px 0px 0px 0px;
+	float:left;
+}
+
+ul#ourEvents li h2.fowa {
+	background: url(img/presentation/fowa_logo.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:106px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+ul#ourEvents li h2.fowd {
+	background:url(img/presentation/fowd_logo.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:106px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+ul#ourEvents li h2.devdays {
+	background:url(img/presentation/devdays.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:106px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+ul#ourEvents li h2.chirpy {
+	background:url(img/presentation/chirp.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:106px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+ul#ourEvents li h2.fom {
+	background:url(img/presentation/fom.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:106px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:0px 0px 0px 0px;
+}
+
+ul#ourEvents li h3.upComing {
+	background:url(img/presentation/upcoming_events.png) top left no-repeat;
+	display: block;
+	width:208px;
+	height:46px;
+	border:none;
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:30px 0px 20px 0px;
+}
+
+ul.upComingEvents {
+	float:left;
+}
+
+ul.upComingEvents li a, span.tbc {
+	width:208px;	
+	font-size:90%;
+	line-height:1.3em;
+	padding:0px 0px 8px 0px;
+	background:url(img/presentation/arrow_circle.png) right top no-repeat;
+	text-decoration:none;
+	display:block;
+	margin:8px 0px 0px 0px;
+	border-bottom:1px dashed #fff;
+}
+
+span.tbc {
+	background-image: none;
+}
+
+ul.upComingEvents li:last-child a,  ul.upComingEvents li:last-child span.tbc {
+	border-bottom:none;
+}
+
+ul.upComingEvents li a:hover {
+	background:url(img/presentation/arrow_circle.png) right -150px no-repeat;
+	color:#183d50;
+}
+
+ul.upComingEvents li a:hover span {
+	color:#fffdd8;
+}
+
+ul.upComingEvents li a span, ul.upComingEvents li span.tbc span {
+	float:left;
+	font-size:80%;
+	font-style:italic;
+	width:35px;
+}
+
+
+
+
+
+
+
+
+/********** Team **********/
+
+.teamWrapper {
+	float:left;
+	width:848px;
+	border-right:4px dashed #fffdd8;
+	padding:0px 0px 0px 0px;
+}
+
+.teamWrapper h2 {
+	margin:0px 0px 3px 0px;
+	clear:both;
+}
+
+.teamWrapper p {
+	padding:0px 0px 30px 0px;
+}
+
+ul#teamList {
+	float:left;
+	list-style-type:none;
+	padding:20px 10px 36px 10px;
+	border-bottom:4px dashed #fffdd8;
+}
+
+ul#teamList li {
+	margin:0px 0px 0px 0px;
+	font-size:100%;
+}
+
+ul#teamList li a {
+	float:left;
+	padding:10px 0px 0px 34px;
+	text-decoration:none;
+}
+
+ul#teamList li a:hover,
+.ryan ul#teamList li a.ryanLink,
+.gill ul#teamList li a.gillLink,
+.greg ul#teamList li a.gregLink,
+.jo ul#teamList li a.joLink,
+.keir ul#teamList li a.keirLink,
+.lou ul#teamList li a.louLink,
+.mike ul#teamList li a.mikeLink,
+.tash ul#teamList li a.tashLink,
+.trista ul#teamList li a.tristaLink,
+.will ul#teamList li a.willLink,
+.cat ul#teamList li a.catLink,
+.pete ul#teamList li a.peteLink,
+.nick ul#teamList li a.nickLink,
+.jim ul#teamList li a.jimLink,
+.allison ul#teamList li a.allisonLink,
+.michael ul#teamList li a.michaelLink,
+.alan ul#teamList li a.alanLink,
+.guy ul#teamList li a.guyLink,
+.jon ul#teamList li a.jonLink {
+	background:url(img/presentation/star.png) left center no-repeat;
+}
+
+
+/********** Jon **********/
+
+.jonPic {
+	position:absolute;
+	top:-20px;
+	left:-50px;
+}
+
+.aboutJon {
+	float:right;
+	width:320px;
+	padding:0px 0px 160px 0px;
+	margin:120px 50px 0px 0px;
+}
+
+h1.jonName {
+	float:left;
+	background:url(img/presentation/jon_name.png) top left no-repeat;
+	display: block;
+	width:169px;
+	height:114px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -10px;
+	}
+	
+h1.jonName span {
+	display:none;
+	}
+
+
+/********** Guy **********/
+
+.guyPic {
+	position:absolute;
+	top:-20px;
+	left:20px;
+}
+
+.aboutGuy {
+	float:right;
+	width:320px;
+	padding:0px 0px 130px 0px;
+	margin:70px 20px 0px 0px;
+}
+
+h1.guyName {
+	float:left;
+	background:url(img/presentation/guy_name.png) top left no-repeat;
+	display: block;
+	width:237px;
+	height:123px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -10px;
+	}
+	
+h1.guyName span {
+	display:none;
+	}
+
+
+/********** Jim **********/
+
+.jimPic {
+	position:absolute;
+	top:-20px;
+	left:20px;
+}
+
+.aboutJim {
+	float:right;
+	width:320px;
+	padding:0px 0px 120px 0px;
+	margin:50px 50px 0px 0px;
+}
+
+h1.jimName {
+	float:left;
+	background:url(img/presentation/jim_name.png) top left no-repeat;
+	display: block;
+	width:237px;
+	height:153px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -10px;
+	}
+	
+h1.jimName span {
+	display:none;
+	}
+
+
+/********** Alan **********/
+
+.alanPic {
+	position:absolute;
+	top:40px;
+	left:-30px;
+}
+
+.aboutAlan {
+	float:right;
+	width:320px;
+	padding:95px 0px 70px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.alanName {
+	float:left;
+	background:url(img/presentation/alan_name.png) top left no-repeat;
+	display: block;
+	width:229px;
+	height:122px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -5px;
+	}
+
+h1.alanName span {
+	display:none;
+	}	
+	
+/********** Michael **********/
+
+.michaelPic {
+	position:absolute;
+	top:-30px;
+	left:-30px;
+}
+
+.aboutMichael {
+	float:right;
+	width:320px;
+	padding:80px 0px 190px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.michaelName {
+	float:left;
+	background:url(img/presentation/michael_name.png) left no-repeat;
+	display: block;
+	width:297px;
+	height:115px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -5px;
+	}
+
+h1.michaelName span {
+	display:none;
+	}	
+
+/********** Allison **********/
+
+.allisonPic {
+	position:absolute;
+	top:0px;
+	left:-30px;
+}
+
+.aboutAllison {
+	float:right;
+	width:320px;
+	padding:80px 0px 40px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.allisonName {
+	float:left;
+	background:url(img/presentation/allison_name.png) left no-repeat;
+	display: block;
+	width:315px;
+	height:98px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -5px;
+	}
+
+h1.allisonName span {
+	display:none;
+	}	
+
+
+/********** Nick **********/
+
+.nickPic {
+	position:absolute;
+	top:-30px;
+	left:20px;
+}
+
+.aboutNick {
+	float:right;
+	width:327px;
+	padding:0px 0px 120px 0px;
+	margin:50px 70px 0px 0px;
+}
+
+h1.nickName {
+	float:left;
+	background:url(img/presentation/nick_name.png) top left no-repeat;
+	display: block;
+	width:327px;
+	height:133px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -10px;
+	}
+	
+h1.nickName span {
+	display:none;
+	}
+
+/********** Pete **********/
+
+.petePic {
+	position:absolute;
+	top:0px;
+	left:20px;
+}
+
+.aboutPete {
+	float:right;
+	width:320px;
+	padding:0px 0px 80px 0px;
+	margin:0px 90px 0px 0px;
+}
+
+h1.peteName {
+	float:left;
+	background:url(img/presentation/pete_name.png) top left no-repeat;
+	display: block;
+	width:273px;
+	height:164px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -10px;
+	}
+	
+h1.peteName span {
+	display:none;
+	}
+
+
+/********** Cat **********/
+
+.catPic {
+	position:absolute;
+	top:-30px;
+	left:-20px;
+}
+
+.aboutCat {
+	float:right;
+	width:320px;
+	padding:80px 0px 120px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.catName {
+	float:left;
+	background:url(img/presentation/cat_name.png) top left no-repeat;
+	display: block;
+	width:205px;
+	height:131px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px -5px;
+	}
+	
+h1.catName span {
+	display:none;
+	}	
+
+
+
+/********** Ryan **********/
+
+.ryanPic {
+	position:absolute;
+	top:0px;
+	left:-180px;
+}
+
+.aboutRyan {
+	float:right;
+	width:320px;
+	padding:80px 0px 80px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.ryanName {
+	float:left;
+	background:url(img/presentation/ryan_name.png) top left no-repeat;
+	display: block;
+	width:285px;
+	height:158px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.ryanName span {
+	display:none;
+	}
+	
+/********** Gill **********/
+
+.gillPic {
+	position:absolute;
+	top:60px;
+	left:-80px;
+}
+
+.aboutGill {
+	float:right;
+	width:320px;
+	padding:30px 0px 30px 0px;
+	margin:0px 40px 0px 0px;
+}
+
+h1.gillName {
+	float:left;
+	background:url(img/presentation/gill_name.png) top left no-repeat;
+	display: block;
+	width:246px;
+	height:143px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.gillName span {
+	display:none;
+	}	
+	
+
+/********** Greg **********/
+
+.gregPic {
+	position:absolute;
+	top:0px;
+	left:-10px;
+}
+
+.aboutGreg {
+	float:right;
+	width:320px;
+	padding:80px 0px 130px 0px;
+	margin:0px 60px 0px 0px;
+}
+
+h1.gregName {
+	float:left;
+	background:url(img/presentation/greg_name.png) top left no-repeat;
+	display: block;
+	width:292px;
+	height:141px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.gregName span {
+	display:none;
+	}
+	
+	
+/********** Jo **********/
+
+.joPic {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+.aboutJo {
+	float:right;
+	width:320px;
+	padding:80px 0px 170px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.joName {
+	float:left;
+	background:url(img/presentation/jo_name.png) top left no-repeat;
+	display: block;
+	width:267px;
+	height:132px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.joName span {
+	display:none;
+	}		
+	
+
+/********** Keir **********/
+
+.keirPic {
+	position:absolute;
+	top:30px;
+	left:-30px;
+}
+
+.aboutKeir {
+	float:right;
+	width:320px;
+	padding:60px 0px 100px 0px;
+	margin:0px 40px 0px 0px;
+}
+
+h1.keirName {
+	float:left;
+	background:url(img/presentation/keir_name.png) top left no-repeat;
+	display: block;
+	width:268px;
+	height:170px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.keirName span {
+	display:none;
+	}	
+	
+	
+/********** Lou **********/
+
+.louPic {
+	position:absolute;
+	top:0px;
+	left:-20px;
+}
+
+.aboutLou {
+	float:right;
+	width:320px;
+	padding:80px 0px 120px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.louName {
+	float:left;
+	background:url(img/presentation/lou_name.png) top left no-repeat;
+	display: block;
+	width:272px;
+	height:125px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.louName span {
+	display:none;
+	}	
+	
+
+/********** Mike **********/
+
+.mikePic {
+	position:absolute;
+	top:0px;
+	left:50px;
+}
+
+.aboutMike {
+	float:right;
+	width:320px;
+	padding:80px 0px 130px 0px;
+	margin:0px 60px 0px 0px;
+}
+
+h1.mikeName {
+	float:left;
+	background:url(img/presentation/mike_name.png) top left no-repeat;
+	display: block;
+	width:299px;
+	height:140px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.mikeName span {
+	display:none;
+	}	
+	
+	
+/********** Tash **********/
+
+.tashPic {
+	position:absolute;
+	top:-68px;
+	left:-50px;
+}
+
+.aboutTash {
+	float:right;
+	width:320px;
+	padding:50px 0px 145px 0px;
+	margin:0px 40px 0px 0px;
+}
+
+h1.tashName {
+	float:left;
+	background:url(img/presentation/tash_name.png) top left no-repeat;
+	display: block;
+	width:286px;
+	height:165px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.tashName span {
+	display:none;
+	}	
+	
+/********** Trista **********/
+
+.tristaPic {
+	position:absolute;
+	top:10px;
+	left:25px;
+}
+
+.aboutTrista {
+	float:right;
+	width:320px;
+	padding:40px 0px 100px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.tristaName {
+	float:left;
+	background:url(img/presentation/trista_name.png) top left no-repeat;
+	display: block;
+	width:277px;
+	height:193px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.tristaName span {
+	display:none;
+	}
+	
+
+/********** Will **********/
+
+.willPic {
+	position:absolute;
+	top:-40px;
+	left:-170px;
+}
+
+.aboutWill {
+	float:right;
+	width:320px;
+	padding:70px 0px 80px 0px;
+	margin:0px 50px 0px 0px;
+}
+
+h1.willName {
+	float:left;
+	background:url(img/presentation/will_name.png) top left no-repeat;
+	display: block;
+	width:300px;
+	height:151px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 15px 0px;
+	}
+	
+h1.willName span {
+	display:none;
+	}	
+
+
+
+									
+
+
+/********** Projects **********/
+
+.ripTop {
+	width:100%;
+	background:url(img/projects/rip_top_texture.png) top center repeat-x;
+	height:50px;
+}
+
+.ripBottom {
+	width:100%;
+	background:url(img/projects/rip_bottom_texture.png) top center repeat-x;
+	height:50px;
+	margin-bottom:60px;
+}
+
+.ripContentWrapper {
+	width:100%;
+	background:#f5f4e0 url(img/projects/texture.jpg) top center repeat;
+}
+
+.ripContent {
+	width:980px;
+	margin:0 auto;
+	padding:50px 0px 50px 0px;
+}
+
+body#projects .column1 {
+	clear: left;
+}
+
+h1.weLove {
+	float:left;
+	background:url(img/projects/we_love_to_experiment.png) top left no-repeat;
+	display: block;
+	width:552px;
+	height:283px;
+	border:none;
+	padding:0px;
+	text-indent:-9999px;
+	margin:54px 0px 25px -21px;
+	}
+
+/*h1.weLove {
+	float:left;
+	background:url(img/projects/we_love_to_experiment2.png) top left no-repeat;
+	display: block;
+	width:552px;
+	height:307px;
+	border:none;
+	padding:0px;
+	text-indent:-9999px;
+	margin:54px 0px 25px -21px;
+	}*/
+
+#projects .column1 {
+	float:left;
+	width:552px;
+	height:600px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#projects .content {
+	background:url(img/projects/arrow_stars.png) 530px 650px no-repeat;
+}
+
+#projects .column1 p {
+	margin:0px 0px 0px 125px;
+}	
+
+#projects .column1 h2 {
+	margin-left:125px;
+}
+
+#projects .footer {
+	margin:0 auto;
+	width:980px;
+}	
+
+/* Projects Text colour -----------------*/
+
+.ripContent {
+	color:#294757;
+}
+
+.ripContent a {
+	color:#294757;
+}
+
+/* Projects ------------------ */
+
+.leftNarrow {
+	float:left;
+	width:420px;
+}
+
+.leftWide {
+	float:left;
+	width:510px;
+}
+
+.rightNarrow {
+	float:right;
+	width:420px;
+}
+
+.rightWide {
+	float:right;
+	width:510px;
+}
+
+/* Indents & width ------------------ */
+
+.info {
+	position:relative;
+	z-index:10;
+}
+
+.projectHello .info,
+.projectDevdays .info,
+.projectHugs .info {
+	padding:0px 0px 0px 127px;
+}
+
+.projectSummerCamp .info, 
+.projectTwiggy .info,
+.projectMatt .info,
+.projectDropSend .info {
+	padding:0px 127px 0px 0px;
+}
+
+
+
+/* Projects Details List ------------------ */
+
+ul.projectDetails {
+	margin:0px 0px 25px -12px;
+}
+
+ul.projectDetails li {
+	font-weight:bold;	
+	font-size:80%;
+	background:url(img/projects/arrow_tiny.png) left no-repeat;
+	padding:0px 0px 0px 12px;
+}
+
+ul.projectDetails li span {
+	font-weight:normal;
+}
+
+/* Hello App -------------------*/
+
+.helloLogo {
+	position:relative;
+	margin:70px 0px 30px 0px;
+	z-index:10;
+}
+
+.eight {
+	position:absolute;
+	top:-30px;
+	left:-100px;
+	width:383px;
+	height:418px;
+	background:url(img/projects/8.png) top left no-repeat;
+	z-index:0;
+}
+
+.projectHello {
+	position:relative;
+}
+
+.projectHello .rightWide {
+	background:url(img/projects/blue_arrow_right.png) 150px 530px no-repeat;
+	height:750px;
+}
+
+/* Summer Camp -------------------*/
+
+.projectSummerCamp {
+	margin:0px 0px 40px 0px;
+	position:relative;
+	z-index:10;
+}
+
+.seven {
+	position:absolute;
+	right:0px;
+	top:-100px;
+	width:370px;
+	height:469px;
+	background:url(img/projects/seven.png) top left no-repeat;
+	z-index:0;
+}
+
+.summerCampLogo {
+	margin:70px 0px 30px -25px;
+	position:relative;
+	z-index:10;
+}
+
+.projectSummerCamp .rightNarrow {
+	background:url(img/projects/blue_arrow_right.png) 50px 1050px no-repeat;
+	height:1250px;
+}
+
+.video {
+	padding:30px 0px 0px 5px;
+	float:left;
+}
+
+/* Devdays -------------------*/
+
+.projectDevdays {
+	margin:0px 0px 50px 0px;
+	position:relative;
+}
+
+.six {
+	position:absolute;
+	left:-100px;
+	top:-100px;
+	width:380px;
+	height:430px;
+	background:url(img/projects/six.png) top left no-repeat;
+	z-index:0;
+}
+
+.devdaysLogo {
+	margin:80px 0px 30px 0px;
+	z-index:10;
+	position:relative;
+}
+
+.projectDevdays .leftNarrow {
+	background:url(img/projects/blue_arrow_left.png) 190px 720px no-repeat;
+	height:920px;
+}
+
+/* Twiggy -------------------*/
+
+.projectTwiggy {
+	margin:0px 0px 50px 0px;
+	position:relative;
+	clear: both;
+}
+
+.five {
+	position:absolute;
+	right:0px;
+	top:300px;
+	width:356px;
+	height:436px;
+	background:url(img/projects/five.png) top left no-repeat;
+	z-index:0;
+}
+
+.twiggyLogo {
+	margin:-70px 0px 20px -20px;
+	position:relative;
+	z-index:10px;
+}
+
+.projectTwiggy .leftWide {
+	background:url(img/projects/blue_arrow_left.png) 210px 800px no-repeat;
+	height:1000px;
+}
+
+
+/* Journal -------------------*/
+
+.projectJournal .info {
+	padding:0px 0px 0px 127px;
+	margin:-400px 0px 0px 0px;
+	width:320px;
+}
+
+.projectJournal {
+	position:relative;
+	background:url(img/projects/blue_arrow_right.png) 710px 820px no-repeat;
+	height:1030px;
+	margin:0px 0px 40px 0px;
+	clear: both;
+}
+
+.four {
+	position:absolute;
+	right:250px;
+	top:-160px;
+	width:374px;
+	height:457px;
+	background:url(img/projects/four.png) top left no-repeat;
+	z-index:0;
+}
+
+.journal {
+	z-index:10;
+	position:relative;
+}
+
+/* Matt -------------------*/
+
+.projectMatt {
+	margin:0px 0px 0px 0px;
+	background:url(img/projects/blue_arrow_left.png) 150px 800px no-repeat;
+	height:1030px;
+	position:relative;
+}
+
+.three {
+	position:absolute;
+	right:70px;
+	top:-220px;
+	width:383px;
+	height:438px;
+	background:url(img/projects/three.png) top left no-repeat;
+	z-index:0;
+}
+
+.projectMatt .screenShot {
+	margin:0px 0px 30px 0px;
+}
+
+.mattLogo {
+	margin:50px 0px 20px -30px;
+	position:relative;
+	z-index:10;
+}
+
+.matt {
+	margin:0px 0px 0px 250px;
+}
+
+
+/* Hugs -------------------*/
+
+.projectHugs {
+	margin:0px 0px 50px 0px;
+	position:relative;
+}
+
+.two {
+	position:absolute;
+	left:-40px;
+	top:-150px;
+	width:378px;
+	height:402px;
+	background:url(img/projects/two.png) top left no-repeat;
+	z-index:0;
+}
+
+.hugsLogo {
+	margin:50px 0px 25px 0px;
+	position:relative;
+	z-index:10;
+}
+
+.projectHugs .rightWide {
+	background:url(img/projects/blue_arrow_right.png) 150px 800px no-repeat;
+	height:1000px;
+}
+
+
+/* DropSend -------------------*/
+
+.projectDropSend {
+	margin:0px 0px 0px 0px;
+	position:relative;
+}
+
+.projectDropSend .rightNarrow {
+	height:360px;
+}
+
+.one {
+	position:absolute;
+	right:480px;
+	top:-30px;
+	width:342px;
+	height:381px;
+	background:url(img/projects/one.png) top left no-repeat;
+	z-index:0;
+}
+
+.dropSendLogo {
+	margin:80px 0px 0px 0px;
+	position:relative;
+	z-index:10;
+}
+
+
+
+
+
+/********** Contact **********/
+
+.starContent {
+	background:url(img/presentation/star_divider.png) top left repeat-x;
+	padding:50px 0px 0px 0px;
+	margin:50px 0px 0px 0px;
+	float:left;
+	width:980px;
+}
+
+h1.makeContact {
+	float:left;
+	background:url(img/presentation/tin_can_phone.png) top left no-repeat;
+	display: block;
+	width:694px;
+	height:412px;
+	border:none;
+	padding:0px;
+	text-indent:-9999px;
+	margin:30px 0px 0px -106px;
+	}
+
+h2.tradCom {
+	float:left;
+	background:url(img/presentation/traditional_communication.png) top left no-repeat;
+	display: block;
+	width:607px;
+	height:73px;
+	border:none;
+	padding:0px;
+	text-indent:-9999px;
+	margin:75px 0px 40px 0px;
+	}	
+
+ul.contactUs {
+	float:left;
+	width:650px;
+	margin-bottom: 45px;
+}	
+
+ul.contactUs li {
+	font-size:120%;
+	margin-bottom:10px;
+}	
+
+ul.contactUs li.fromEurope,
+ul.contactUs li.email {
+	margin-bottom:35px;
+}	
+
+ul.contactUs li span {
+	font-weight:bold;
+	width:200px;
+	display:block;
+	float:left;
+}
+
+img.vocal {
+	float: right;
+}
+
+form.wpcf7-form {
+	margin:61px 0px 0px 0px;
+	float:right;
+	width:331px;
+}
+
+form.wpcf7-form p {
+	position: relative;
+	padding: 0;
+}
+
+form.wpcf7-form label.field.inner {
+	display: block;
+	position: absolute;
+	width: 260px;
+	top: 13px;
+	left: 10px;
+	color: #e46508;
+}
+
+form.wpcf7-form input,
+form.wpcf7-form textarea {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:100%;
+	text-align:left;
+	margin-top: 2px;
+	padding:0px 0px 0px 0px;
+	color: #e46508;
+}
+
+form.wpcf7-form input {
+	width:260px;
+	height:20px;
+	float:left;
+	margin-bottom:18px;
+	padding:13px 0px 13px 10px;
+	border:none;
+}
+
+form.wpcf7-form #name input,
+form.wpcf7-form #email input,
+form.wpcf7-form textarea {
+	background:#fffdd8;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+form.wpcf7-form #submit input {
+	height:53px;
+	padding:0px;
+	width:275px;
+	cursor: pointer;
+	text-indent: -2000em;
+	overflow: hidden;
+	border: none;
+	background: transparent url(img/presentation/send_message.png) left top no-repeat;
+}
+
+	form.wpcf7-form #submit input:hover {
+		background-position: left -53px;
+	}
+
+form.wpcf7-form textarea {
+	width:320px;
+	height:127px;
+	float:left;
+	margin-bottom:18px;
+	padding:13px 0px 0px 10px;
+	border:none;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+div.wpcf7 {
+	margin: 0;
+	padding: 0;
+}
+
+div.wpcf7-response-output {
+	padding: 10px 15px;
+}
+
+div.wpcf7-mail-sent-ok {
+	border: 2px dashed #fffdd8;
+}
+
+div.wpcf7-mail-sent-ng {
+	border: 2px dashed #fffdd8;
+}
+
+div.wpcf7-spam-blocked {
+	border: 2px dashed #fffdd8;
+}
+
+div.wpcf7-validation-errors {
+	border: 2px dashed #fffdd8;
+}
+
+span.wpcf7-form-control-wrap {
+	position: relative;
+}
+
+span.wpcf7-not-valid-tip {
+	position: absolute;
+	top: 30px;
+	left: 20px;
+	z-index: 100;
+	background: #fffdd8;
+	border: 2px solid #fc7009;
+	color: #fc7009;
+	font-size: 10pt;
+	width: 225px;
+	padding: 2px;
+}
+
+span.wpcf7-not-valid-tip-no-ajax {
+	color: #f00;
+	font-size: 10pt;
+	display: block;
+}
+
+span.wpcf7-list-item {
+	margin-left: 0.5em;
+}
+
+.wpcf7-display-none {
+	display: none;
+}
+
+
+
+
+
+
+
+/********** 404 **********/
+
+h1.whoops404 {
+	float:left;
+	background:url(img/presentation/mag_glass.png) top left no-repeat;
+	display: block;
+	width:784px;
+	height:492px;
+	border:none;
+	padding:0px;
+	text-indent:-9999px;
+	margin:0px 0px 0px -179px;
+	}
+	
+#four04 .column1 {
+	margin:140px 0px 0px 50px;
+	padding:0px 0px 0px 0px;
+	float:left;
+	width:290px;
+}	
+
+#four04 .column1 p {
+	margin:0px 0px 10px 0px;
+}	
+
+
+
+/********** Affiliates **********/
+
+h1.becomeAffiliate {
+	float:left;
+	background:url(img/affiliates/become_affiliate.png) top left no-repeat;
+	display: block;
+	width:479px;
+	height:256px;
+	border:none;
+	padding:0px;
+	margin:40px 0px 25px 0px;
+	}
+	
+h1.becomeAffiliate img {
+	height:0;
+	}	
+	
+.handShake {
+	padding:0px 0px 30px 0px;
+	float:right;
+}	
+	
+#affiliates .column1 {
+	float:left;
+	width:479px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+}
+
+#affiliates .ripContent {
+	background:url(img/affiliates/arrow_large.png) 180px 1100px no-repeat;
+}
+
+.affiliateVideo {
+	margin:0px 0px 40px 69px;
+	float:left;
+}
+
+a.signUpNow {
+	background:url(img/affiliates/sign_up_tear.png) top left no-repeat;
+	float:left;
+	display: block;
+	width:411px;
+	height: 223px;
+	border: none;
+	margin: 0px 0px 30px 30px;
+	}
+	
+a.signUpNow:hover {
+	background:url(img/affiliates/sign_up_tear.png) 0px -260px no-repeat;
+	}
+	
+a.signUpNow img {
+	height:0;
+}
+
+p.end {
+	padding-bottom:60px;
+}
+
+#affiliates .column1 p {
+	margin:0px 0px 0px 69px;
+}	
+
+#affiliates .column1 h2 {
+	margin-left:69px;
+}
+
+#affiliates .footer {
+	margin:0 auto;
+	width:980px;
+}	
+
+/* Affiliates Text colour -----------------*/
+
+#affiliates .ripContent,
+#affiliates .ripContent02,
+#affiliates .ripContent a,
+#affiliates .ripContent02 a {
+	color:#005f47;
+}
+
+/* Affiliates ------------------ */
+
+#affiliates .leftNarrow {
+	float:left;
+	width:414px;
+}
+
+#affiliates .leftNarrow {
+	float:left;
+	width:414px;
+}
+
+#affiliates .ripContent02 .leftNarrow {
+	float:left;
+	width:414px;
+	padding-top:100px;
+}
+
+#affiliates .leftNarrow h2 {
+	padding:0px 0px 0px 69px;
+}
+
+#affiliates .leftNarrow h2.indent {
+	padding:0px 0px 0px 194px;
+}
+
+#affiliates .leftWide {
+	float:left;
+	width:515px;
+}
+
+#affiliates .rightNarrow {
+	float:right;
+	width:414px;
+}
+
+#affiliates .rightWide {
+	float:right;
+	width:515px;
+	padding:110px 0px 0px 0px;
+}
+
+#affiliates .ripContent02 .rightWide {
+	padding:0px 0px 0px 0px;
+}
+
+
+
+
+
+/* Affiliate Get in Touch List ------------------ */
+
+ul.getInTouch {
+	margin:0px 2px 0px 194px;
+	float: left;
+}
+
+ul.getInTouch li {	
+	font-size:80%;
+	margin:0px 0px 10px 0px;
+	height:39px;
+}
+
+ul.getInTouch li a {
+	padding:20px 0px 20px 47px;
+	margin:0px 0px 0px 0px;
+}
+
+ul.getInTouch li a.mail {	
+	background:url(img/affiliates/icon_mail.png) 0 9px no-repeat;
+}
+
+ul.getInTouch li a.mail:hover {	
+	background:url(img/affiliates/icon_mail.png) 0 -51px no-repeat;
+	color:#ca4040;
+}
+
+ul.getInTouch li a.twitterIcon {	
+	background:url(img/affiliates/icon_twitter.png) 0 9px no-repeat;
+}
+
+ul.getInTouch li a.twitterIcon:hover {	
+	background:url(img/affiliates/icon_twitter.png) 0 -51px no-repeat;
+	color:#32aed7;
+}
+
+ul.getInTouch li a.facebook {	
+	background:url(img/affiliates/icon_facebook.png) 0 9px no-repeat;
+}
+
+ul.getInTouch li a.facebook:hover {	
+	background:url(img/affiliates/icon_facebook.png) 0 -51px no-repeat;
+	color:#11579e;
+}
+
+
+/* general List ------------------ */
+
+ul.general {
+	margin:0px 0px 60px 0px;
+}
+
+ul.general li {	
+	margin:0px 0px 15px 0px;
+	padding:0px 0px 0px 25px;
+	background:url(img/affiliates/bullet_star.png) left top no-repeat;
+}
+
+ul.general li.none {	
+	background:none;
+}
+
+ul.generalSub {
+	margin:0px 0px 0px 0px;
+}
+
+ul.generalSub li {	
+	margin:0px 0px 10px 0px;
+	padding:0px 0px 0px 25px;
+	background:url(img/affiliates/bullet_star_grey.png) left top no-repeat;
+}
+
+ul.noMargin {
+	margin-bottom:0px;
+}
+
+/* rip content dark------------------ */
+
+.ripTop02 {
+	width:100%;
+	background:url(img/affiliates/rip_top_dark.png) top left repeat-x;
+	height:50px;
+}
+
+.ripBottom02 {
+	width:100%;
+	background:url(img/affiliates/rip_bottom_dark.png) top left repeat-x;
+	height:50px;
+	margin-bottom:60px;
+}
+
+.ripContent02Wrapper {
+	width:100%;
+	background:#e4e3cc;
+}
+
+.ripContent02 {
+	width:980px;
+	margin:0 auto;
+	padding:10px 0px 50px 0px;
+	position:relative;
+}
+
+/*form ------------------ */
+
+form#bannerCode {
+	margin:0px 0px 0px 69px;
+}
+
+form#bannerCode label {
+	font-size:90%;
+	padding:0px 0px 3px 0px;
+}
+
+form#bannerCode input,
+form#bannerCode textarea  {
+	width:325px;
+	color:#005f47;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border:1px dashed #005f47;
+	font-size:130%;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	padding:7px 7px 7px 7px;
+	background:#f5f5eb;
+}
+
+form#bannerCode input:focus,
+form#bannerCode textarea:focus {
+	background:#f5f5ec url(img/affiliates/shadow_form_focus.jpg) top left repeat-x;
+    /*-moz-box-shadow: inset 0px 0px 10px #c1c1c1;  
+	box-shadow: 0px 0px 5px #c1c1c1;*/
+}	
+
+form#bannerCode textarea  {
+	height:100px;
+	font-size:80%;
+}
+
+form#bannerCode input#submit {
+	width:150px;
+	background:#005f47;
+	color:#f5f4e0;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	border:none;
+}
+
+form#bannerCode input#submit:hover {
+	background:#ca4040;
+}
+
+form#bannerCode select {
+	width:341px;
+	background:#e4e3cc;
+	color:#005f47;
+	border:1px solid #cdccb3;
+	font-size:100%;
+	height:30px;
+}
+
+/*badges on affiliate page ------------------ */
+
+#affiliates h3 {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:normal;
+	padding:20px 0px 7px 0px;
+	margin-bottom:20px;
+}
+
+.badges {
+	margin-bottom:60px;
+}
+
+.badgesEnd {
+	margin-bottom:0px;
+}
+
+.badges img,
+.badgesEnd img {
+	margin:0px 3px 3px 0px;
+}
+
+.badgesFull {
+	width:980px;
+	height:240px;
+}
+
+.badgesFull img {
+	float:left;
+	margin:0px 5px 0px 0px;
+}
+
+
+/* download badges affiliate page ------------------ */
+
+ul.adPacks {
+	margin:0px 0px 0px 0px;
+}
+
+ul.adPacks li {
+	width:251px;
+	float:left;
+	margin:0px 0px 40px 0px;
+}
+
+ul.adPacks li.gap {
+	margin-left:10px;
+}
+
+ul.adPacks li a {
+	background:url(img/affiliates/download_ad_pack.png) top left no-repeat;
+	float:left;
+	display: block;
+	width:207px;
+	height: 53px;
+	border: none;
+	margin: 0px 0px 0px 20px;
+	}
+	
+ul.adPacks li a:hover {
+	background:url(img/affiliates/download_ad_pack.png) 0px -80px no-repeat;
+	}
+
+ul.adPacks li a img {
+	height:0;
+}
+
+
+ul.adpacks li a.pack {
+	background:url(img/affiliates/download_ad_pack.png) top left no-repeat;
+	display: block;
+	width:207px;
+	height: 53px;
+	border: none;
+	margin: 10px 0 0 0;
+	}
+	
+ul.adpacks li a.pack:hover {
+	background:url(img/affiliates/download_ad_pack.png) 0px -80px no-repeat;
+	}
+
+ul.adpacks li a.pack img {
+	height:0;
+}
+
+
+
+
+
+
+
+
+/********** Jobs **********/
+
+h1.grow {
+	float:left;
+	background:url(img/presentation/grow.png) top left no-repeat;
+	display: block;
+	width:980px;
+	height:302px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 62px 0px;
+	}
+	
+h1.grow span {
+	display:none;
+	}
+	
+h2.noVacancies {
+	float:left;
+	background:url(img/presentation/no_vacancies.png) top left no-repeat;
+	position:absolute;
+	top:288px;
+	left:0px;
+	display: block;
+	width:171px;
+	height:109px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	}
+	
+h2.noVacancies span {
+	display:none;
+	}	
+	
+h2.wereHiring a {
+	float:left;
+	background:url(img/presentation/were_hiring.png) top left no-repeat;
+	position:absolute;
+	top:288px;
+	left:0px;
+	display: block;
+	width:171px;
+	height:139px;
+	border:none;
+	padding:0px;
+	margin:0px 0px 0px 0px;
+	text-indent:-9999px;
+	}
+	
+h2.wereHiring a:hover {
+	opacity:.9;
+	}	
+		
+	
+	
+#jobs .column2 h2 {
+	padding:0px 0px 0px 75px;
+}
+	
+#jobs .column1 {
+	float:left;
+	width:315px;
+	padding:0px 0px 0px 223px;
+	margin:0px 50px 0px 0px;
+}
+
+#jobs .column2 {
+	float:left;
+	width:350px;
+}
+
+ul#benefits {
+	list-style-type:none;
+}
+
+ul#benefits li {
+	padding:0px 0px 10px 75px;
+}
+	
+ul#benefits li.fourDayWeek {
+	background:url(img/presentation/4.png) 0px 0px no-repeat;
+}
+
+ul#benefits li.iphone {
+	background:url(img/presentation/iphone.png) 0px 2px no-repeat;
+}
+
+ul#benefits li.travel {
+	background:url(img/presentation/plane.png) 0px 0px no-repeat;
+}
+
+ul#benefits li.pay {
+	background:url(img/presentation/pound_sign.png) 0px 0px no-repeat;
+}
+
+ul#benefits li.lunch {
+	background:url(img/presentation/sandwich.png) 0px 0px no-repeat;
+}
+
+/********** Clearfix **********/
+
+.projectJournal:after,
+.projectDropSend:after,
+.projectHugs:after,
+.projectMatt:after,
+.projectTwiggy:after,
+.projectHello:after,
+.projectDevdays:after,
+.projectSummerCamp:after,
+.starContent:after,
+.teamWrapper:after,
+.footer:after,
+.content-main:after,
+.header:after,
+.nav.categories:after,
+.ripContent:after,
+.ripContent02:after,
+.valuesSection:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+}
+/* End Clearfix */

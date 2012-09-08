@@ -1,0 +1,3 @@
+.nav.main-nav, #header-search, #latest-news, .nav.categories, .comments-count, .section.related, .section.dotnet, .comment-reply-link, #respond, .aside.page, .tweetmeme_button, .tweetmeme, .footer.page {
+	display: none;
+}
